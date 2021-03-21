@@ -1,5 +1,5 @@
 # General Messages
-no-permission: "§cYou don't have enough permissions!"
+no-permission: "§cYou don't have the correct permissions to run this command!"
 error-unknown: "§cAn unknown error occurred! Please report this to an Administrator."
 command-disabled: "§eThe command {0} is currently disabled!"
 
@@ -13,7 +13,7 @@ connected-to-hub: "§aSuccessfully connected you to the hub!"
 send-incorrect-usage: "§eIncorrect usage, use §f/send <all/player/server> <server>"
 send-attempting-request: "§eAttempting to send {0} to {1}..."
 send-successful-request: "§eSuccessfully sent {0} to {1}!"
-send-sent-to-server: "§eYou have been send to {0}!"
+send-sent-to-server: "§eYou have been sent to {0}!"
 
 # /alert Command
 
