@@ -1,19 +1,19 @@
 # General Messages
-no-permission: "§cYou do not have permission!"
+no-permission: "§cYou don't have enough permissions!"
 error-unknown: "§cAn unknown error occurred! Please report this to an Administrator."
 command-disabled: "§eThe command {0} is currently disabled!"
 
 # /hub Command
 
-already-at-hub: "§cYou are already connected to the Hub!"
-connected-to-hub: "§aSuccessfully connected you to the Hub!"
+already-at-hub: "§cYou are already connected to the hub!"
+connected-to-hub: "§aSuccessfully connected you to the hub!"
 
 # /send Command
 
-send-incorrect-usage: "§eIncorrect usage! /send <all/player/server> <server>"
+send-incorrect-usage: "§eIncorrect usage, use §f/send <all/player/server> <server>"
 send-attempting-request: "§eAttempting to send {0} to {1}..."
 send-successful-request: "§eSuccessfully sent {0} to {1}!"
-send-sent-to-server: "§eYou have been summoned to {0}!"
+send-sent-to-server: "§eYou have been send to {0}!"
 
 # /alert Command
 
@@ -23,7 +23,7 @@ alert-format: "§9§lMysticPvP §f{0}"
 
 # /msg Command
 
-msg-incorrect-usage: "§eIncorrect usage! /msg <player> <message>"
+msg-incorrect-usage: "§eIncorrect usage, use §f/msg <player> <message>"
 msg-message-sent: "§8[§9Me &8» §9{0}&8] §f{1}"
 msg-message-recieved: "§8[§9{0} §8» §9Me§8] §f{1}"
 msg-targetOffline: "§eThe user you are messaging is offline!"
@@ -31,8 +31,8 @@ msg-noTarget: "§eYou have nobody to reply to!"
 
 # /reply Command
 
-reply-incorrect-usage: "§eIncorrect usage! /reply <message>"
-reply-targetOffline: "§eThe user you are replying to has went offline!"
+reply-incorrect-usage: "§eIncorrect usage, use §f/reply <message>"
+reply-targetOffline: "§eThe user you are replying to went offline!"
 reply-noTarget: "§eYou have nobody to reply to!"
 
 # /spy Command
@@ -42,8 +42,8 @@ spy-disabledSpy: "§eSuccessfully §cdisabled §eyour network spy!"
 
 # /play Command
 
-play-incorrect-usage: "§eIncorrect usage! /play <KitPvP/SkyWars/HCF>"
-play-server-offline: "§e{0} Is currently offline! Please wait until it is started again."
+play-incorrect-usage: "§eIncorrect usage, use §f/play <KitPvP/SkyWars/HCF>"
+play-server-offline: "§e{0} Is currently offline! Please wait until the server is online!"
 play-connected-to-server: "§eSuccessfully connected you to {0}!"
 
 # /core stats Command
@@ -51,9 +51,9 @@ play-connected-to-server: "§eSuccessfully connected you to {0}!"
 core-stats-header: "§7§m========================================="
 core-stats-footer: "§7§m========================================="
 core-stats-line1: "§e§lCore - Statistics"
-core-stats-line2: "§eOnline Players: §a{0}"
-core-stats-line3: "§eUsed RAM: §a{0} MB"
-core-stats-line4: "§eRemaining RAM: {0} MB"
+core-stats-line2: "§eOnline Players: §f{0}"
+core-stats-line3: "§eUsed RAM: §f{0} MB"
+core-stats-line4: "§eRemaining RAM: §f{0} MB"
 
 # /core shutdown Command
 
@@ -62,24 +62,24 @@ core-shutdown-public: "§e§lCore §8» §eShutting down network."
 
 # /core check Command
 
-core-check-incorrect-usage: "§eIncorrect usage! /core check <player>"
-core-check-playerNotExist: "§e{0} is not online/logged in the database!"
+core-check-incorrect-usage: "§eIncorrect usage, use §f/core check <player>"
+core-check-playerNotExist: "§f{0} §ehas never logged in!"
 core-check-line1: "§e§lCore - Check"
 core-check-line2: "§eFormat: §7Name » Last Seen"
-core-check-line3: "{0} §8» {1}"
+core-check-line3: "§e{0} §8» §f{1}"
 
 # /core hide Command
 
 core-hide-hidden: "§eSuccessfully hidden you to the network!"
-core-hide-hidden-staffMessage: "§a{0} §ehas hidden themself to the network!"
+core-hide-hidden-staffMessage: "§f{0} §ehas hidden themself to the network!"
 
 core-hide-shown: "§eSuccessfully shown you to the network!"
-core-hide-shown-staffMessage: "§a{0} §ehas shown themself to the network!"
+core-hide-shown-staffMessage: "§f{0} §ehas shown themself to the network!"
 
 # /core player Command
 
-core-player-incorrect-usage: "§eIncorrect usage! /core player <player>"
-core-player-playerNotExist: "§e{0} is not online/logged in the database!"
+core-player-incorrect-usage: "§eIncorrect usage, use §f/core player <player>"
+core-check-playerNotExist: "§f{0} §ehas never logged in!"
 core-player-line1: "§e§lCore - Check"
 core-player-line2: "§eStatus: %STATUS%"
 core-player-line3: "§eIP: %IP%"
@@ -101,23 +101,23 @@ blist-line: "§e%SERVER_NAME% §a(%PLAYER_COUNT) §f%PLAYERS_ONLINE%"
 
 # /find Command
 
-find-message: "§a{0} §eis online at §a{1}§e!"
-find-target-offline: "§a{0} §eis currently offline!"
+find-message: "§f{0} §eis online at §f{1}§e!"
+find-target-offline: "§f{0} §eis currently offline!"
 
 # /report Command
 
-report-userOffline: "§a{0} §eis currently offline!"
-report-success: "§eSuccessfully reported {0}. All online staff have been alerted."
+report-userOffline: "§f{0} §eis currently offline!"
+report-success: "§eSuccessfully reported §f{0}§e. All online staff have been alerted."
 
 # Anti Advertisement
 
 antiad-msg: "§cPlease do not advertise!"
-antiad-staffMsg-line1: "§a{0} §etried to advertise, but was blocked!"
-antiad-staffMsg-line2: "§eMessage: §a{1}"
+antiad-staffMsg-line1: "§f{0} §etried to advertise, but was blocked!"
+antiad-staffMsg-line2: "§eMessage: §f{1}"
 
 # Welcome Back Messages
 
-welcomeBack-line1: "Welcome back to §9§lMysticPvP §f%PLAYER%!"
+welcomeBack-line1: "§eWelcome back to §9§lMysticPvP §f%PLAYER%!"
 welcomeBack-line2: "§eDiscord: §fhttps://discord.mysticpvp.fun"
 welcomeBack-line3: "§eWebsite: §fhttps://mysticpvp.fun"
 welcomeBack-line4: "§eStore: §fhttps://store.mysticpvp.fun"
